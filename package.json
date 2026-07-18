@@ -1,0 +1,32 @@
+{
+  "name": "ecommerce-api",
+  "version": "1.0.0",
+  "description": "E-Commerce REST API built with Node.js, Express and MongoDB (Mongoose). Provides Categories, Products (with filtering), Cart and Orders with a full checkout flow.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "mongodb",
+    "ecommerce",
+    "rest-api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-validator": "^7.3.2",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^8.24.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "type": "commonjs"
+}
